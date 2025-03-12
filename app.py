@@ -6,8 +6,8 @@ import requests
 from io import BytesIO
 
 # 设置模型和标准化器的路径
-MODEL_URL = 'https://raw.githubusercontent.com/chu623524/323457/main/RF.pkl'
-SCALER_URL = 'https://raw.githubusercontent.com/chu623524/323457/main/scaler.pkl'
+MODEL_URL = 'https://raw.githubusercontent.com/chu623524/75475/main/RF1.pkl'
+SCALER_URL = 'https://raw.githubusercontent.com/chu623524/75475/main/scaler.pkl'
 
 # 下载模型和标准化器
 @st.cache_resource
